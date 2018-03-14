@@ -14,6 +14,9 @@ import {
     Button
 } from 'iview'
 
+import echarts from 'vue-echarts/components/ECharts'
+
+Vue.component('Chart', echarts)
 Vue.component('Layout', Layout)
 Vue.component('Header', Header)
 Vue.component('Content', Content)
