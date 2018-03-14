@@ -1,0 +1,38 @@
+{
+    "name": "interaction-fe",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "npx parcel view/index.html",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "edp": {
+        "wwwroot": "/",
+        "depDir": "dep",
+        "srcDir": "src",
+        "loaderAutoConfig": "js,htm,html,tpl,vm,phtml",
+        "loaderUrl": "http://s1.bdstatic.com/r/www/cache/ecom/esl/1-8-2/esl.js",
+        "dependencies": {}
+    },
+    "engines": {
+        "node": ">= 4.0.0",
+        "npm": ">= 3.0.0"
+    },
+    "devDependencies": {
+        "babel-preset-env": "^1.6.1",
+        "eslint": "^4.18.2",
+        "eslint-plugin-vue": "^4.3.0",
+        "parcel-bundler": "^1.4.1",
+        "parcel-plugin-eslint": "^1.0.3",
+        "parcel-plugin-vue": "^1.5.0"
+    },
+    "dependencies": {
+        "echarts": "^4.0.4",
+        "iview": "^2.10.1",
+        "vue": "^2.5.16",
+        "vue-router": "^3.0.1"
+    }
+}
